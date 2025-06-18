@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('dance.jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Classes & Programs Section */
+.classes, .programs {
+    padding: 50px 20px;
+    background: #857c7c;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.class-list, .program-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.class-item, .program-item {
+    background: #998d8d;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s, background 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.class-item:hover, .program-item:hover {
+    transform: scale(1.05);
+    background: #444;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
